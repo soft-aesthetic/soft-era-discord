@@ -1,0 +1,63 @@
+.theme-light [class*="channels"], .theme-light [class*="guildsWrapper"] {
+    background-color: #f9f5f5;
+}
+
+.theme-light [class*="searchBar-"] {
+    background-color: #f9f5f5;
+    box-shadow: none;
+}
+
+.theme-light [class*="searchBarInner-"] {
+    background-color: #e4bcbf;
+    border: none;
+    color: white;
+}
+
+.theme-light [class*="guildInner-"], .theme-light [class*="guildsAdd-"] {
+    background-color: #e6c2c5;
+    border-color: #e4bcbf;
+    color: white;
+}
+
+.theme-light [class*="iconForeground-"], .theme-light [class*="linkButtonIcon-"], .theme-light [class*="button-"] {
+    color: #e6c2c5;
+}
+
+.theme-light [class*="status-"] {
+    border-color: #F5EDED;
+}
+
+.theme-light [class*="channel-"]:hover a, .theme-light [class*="textArea-"], .theme-light [class*="inner-"], .theme-light [class*="channels-"] > [class*="container-"] {
+    background-color: #F5EDED;
+}
+
+.theme-light [class*="downloadAppButton"], .theme-light [class*="guildSeparator-"] {
+    display: none;
+}
+
+.theme-light [class*="topPill-"] [class*="itemSelected-"] {
+    background-color: #e4bcbf;
+}
+
+.theme-light [class*="channels-"] > [class*="container-"]:last-child, .theme-light [class*="channel-"][class*="selected-"] a, .theme-light [class*="channelNotice-"], .theme-light [class*="contentSelectedText"], .theme-light [class*="channels"] [class*="header-"] {
+    background-color: #e4bcbf;
+    box-shadow: none;
+}
+
+.theme-light [class*="channel-"][class*="selected-"] [class*="linkButtonIcon-"], .theme-light [class*="mobileIndicator-"], .theme-light [class*="horizontal-"] > [class*="button-"] {
+    color: white;
+}
+
+.theme-light [class*="attachButtonPlus-"] {
+    fill: #e4bcbf;
+    color: #e4bcbf;
+}
+
+.theme-light [class*="layer-"]>[class*="container-"] {
+    background: white;
+}
+
+.theme-light [class*="spriteNormal-"] {
+    filter: none;
+    -webkit-filter: none;
+}
