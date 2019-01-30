@@ -74,17 +74,37 @@
 .theme-light [class*="guild-"] [class*="guildInner-"] {
     border-radius: 50% !important;
     opacity: .36;
-    transition: .35s ease all;
+    transition: .35s ease-out all;
 }
 .theme-light [class*="guild-"] [class*="guildInner-"]:hover {
     opacity: .8;
-    transition: .25s ease all;
+    transition: .25s ease-out all;
 }
-.theme-light [class*="guild-"][class*="selected"] [class*="guildInner-"] {
-    box-shadow: 0 0 0 2px #6f5573, 0 0 12px 4px #cfc9f4;
+
+.theme-light [class*="dms-"] [class*="guild-"] [class*="guildInner-"] {
     opacity: 1;
-    transition: .15s ease all;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #b4addf;
+    background-color: transparent;
+}
+.theme-light [class*="dms-"] [class*="guild-"] [class*="guildInner-"] * {
+    opacity: .8;
+    background-color: transparent;
+    transition: .35s ease-out all;
+}
+.theme-light [class*="dms-"] [class*="guild-"] [class*="guildInner-"]:hover * {
+    opacity: 1;
+    transition: .1s ease-out all;
+}
+
+.theme-light [class*="guild-"][class*="selected"] [class*="guildInner-"] {
+    box-shadow: 0 0 0 4px #e4bcbf;
+    opacity: 1;
+    transition: .15s ease-out all;
 }
 .theme-light [class*="guild-"][class*="guildIcon-"] {
     border-radius: 50%;
+}
+
+.theme-light [class*="badge-"] {
+    background-color: #b4addf;
 }
