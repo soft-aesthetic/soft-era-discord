@@ -76,6 +76,10 @@
     opacity: .36;
     transition: .35s ease all;
 }
+.theme-light [class*="guild-"] [class*="guildInner-"]:hover {
+    opacity: .8;
+    transition: .25s ease all;
+}
 .theme-light [class*="guild-"][class*="selected"] [class*="guildInner-"] {
     box-shadow: 0 0 0 2px #6f5573, 0 0 12px 4px #cfc9f4;
     opacity: 1;
