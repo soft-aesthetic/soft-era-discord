@@ -35,7 +35,7 @@
     display: none;
 }
 
-.theme-light [class*="topPill-"] [class*="itemSelected-"] {
+.theme-light [class*="topPill-"] [class*="itemSelected-"], [class*="app-"] > div[style*="position"], [class*="app-"] > [class*="fixClipping-"] {
     background-color: #e4bcbf;
 }
 
