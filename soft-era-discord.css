@@ -1,9 +1,10 @@
 .theme-light [class*="channels"], .theme-light [class*="guildsWrapper"] {
-    background-color: #f9f5f5;
+    background-color: #f9f5f4;
+    background-color: #f5eded;
 }
 
 .theme-light [class*="searchBar-"] {
-    background-color: #f9f5f5;
+    background-color: #f9f5f4;
     box-shadow: none;
 }
 
@@ -14,7 +15,7 @@
 }
 
 .theme-light [class*="guildInner-"], .theme-light [class*="guildsAdd-"] {
-    background-color: #e6c2c5;
+    background-color: #e6c2c5 !important;
     border-color: #e4bcbf;
     color: white;
 }
@@ -22,12 +23,11 @@
 .theme-light [class*="iconForeground-"], .theme-light [class*="linkButtonIcon-"], .theme-light [class*="button-"] {
     color: #e6c2c5;
 }
-
 .theme-light [class*="status-"] {
     border-color: #F5EDED;
 }
 
-.theme-light [class*="channel-"]:hover a, .theme-light [class*="textArea-"], .theme-light [class*="inner-"], .theme-light [class*="channels-"] > [class*="container-"] {
+.theme-light [class*="channel-"]:hover a, .theme-light [class*="textArea-"], .theme-light [class*="inner-"], .theme-light [class*="channels-"] > [class*="container-"]  {
     background-color: #F5EDED;
 }
 
@@ -60,4 +60,27 @@
 .theme-light [class*="spriteNormal-"] {
     filter: none;
     -webkit-filter: none;
+}
+
+.theme-light [class*="nameDefaultText"], .theme-light [class*="nameDefaultVoice"], .theme-light [class*="nameLockedText"], .theme-light [class*="nameLockedVoice"] {
+    color: #c7b8be;
+    color: #6f557388;
+}
+
+.theme-light [class*="nameUnreadText"] {
+    color: #4a4543;
+}
+
+.theme-light [class*="guild-"] [class*="guildInner-"] {
+    border-radius: 50% !important;
+    opacity: .36;
+    transition: .35s ease all;
+}
+.theme-light [class*="guild-"][class*="selected"] [class*="guildInner-"] {
+    box-shadow: 0 0 0 2px #6f5573, 0 0 12px 4px #cfc9f4;
+    opacity: 1;
+    transition: .15s ease all;
+}
+.theme-light [class*="guild-"][class*="guildIcon-"] {
+    border-radius: 50%;
 }
