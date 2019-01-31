@@ -30,6 +30,12 @@
 .theme-light [class*="channel-"]:hover a, .theme-light [class*="textArea-"], .theme-light [class*="inner-"], .theme-light [class*="channels-"] > [class*="container-"]  {
     background-color: #F5EDED;
 }
+.theme-light [class*="HoveredText"] > [class*="content"] {
+        background-color: #e6c2c566;
+}
+.theme-light [class*="HoveredText"] * {
+    color: #6f5573aa;
+}
 
 .theme-light [class*="downloadAppButton"], .theme-light [class*="guildSeparator-"] {
     display: none;
@@ -44,7 +50,9 @@
     box-shadow: none;
 }
 
-.theme-light [class*="channel-"][class*="selected-"] [class*="linkButtonIcon-"], .theme-light [class*="mobileIndicator-"], .theme-light [class*="horizontal-"] > [class*="button-"] {
+.theme-light [class*="channel-"][class*="selected-"] [class*="linkButtonIcon-"], 
+.theme-light [class*="mobileIndicator-"], 
+.theme-light [class*="horizontal-"] > [class*="lookBlank-"] {
     color: white;
 }
 
@@ -69,6 +77,10 @@
 
 .theme-light [class*="nameUnreadText"] {
     color: #4a4543;
+}
+
+.theme-light [class*="nameMutedText"], .theme-light [class*="nameMutedVoice"] {
+    color: #6f557344;
 }
 
 .theme-light [class*="guild-"] [class*="guildInner-"] {
@@ -107,4 +119,33 @@
 
 .theme-light [class*="badge-"] {
     background-color: #b4addf;
+}
+/* buttons and actions */
+.theme-light [class*="tabBar-"] [class*="primary-"], 
+.theme-light button[class*="lookFilled-"] {
+    background-color: #87b6b6 !important;
+    color: #fff;
+}
+.theme-light [class*="channels-"] [class*="scroller-"] [class*="icon-"] {
+    color: #dd698c !important;
+    opacity: .4;
+}
+.theme-light [class*="channels-"] [class*="scroller-"] [class*="Muted"] [class*="icon-"] {
+    color: #6f5573 !important;
+    opacity: .25;
+
+}
+.theme-light [class*="channels-"] [class*="scroller-"] [class*="Unread"] [class*="icon-"] {
+    opacity: .8;
+    color: #6f5573 !important;
+}
+.theme-light [class*="channels-"] [class*="scroller-"] [class*="Selected"] [class*="icon-"] {
+    opacity: .6;
+    color: #fff !important;
+}
+.theme-light [class*="channels-"] [class*="scroller-"] [class*="Hovered"] [class*="icon-"] {
+    opacity: .8;
+}
+.theme-light [class*="unreadBottom-"] [class*="unread-"][class*="bar-"] {
+    background-color: #b4addf !important;
 }
