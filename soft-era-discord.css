@@ -116,6 +116,13 @@
 .theme-light [class*="guild-"][class*="guildIcon-"] {
     border-radius: 50%;
 }
+.theme-light [class*="guild-"][class*="unread-"]::before {
+    background-color: #cfc9f4;
+}
+.theme-light [class*="guild-"][class*="selected-"]::before {
+    background-color: #ddbac5;
+}
+
 
 .theme-light [class*="badge-"] {
     background-color: #b4addf;
@@ -126,6 +133,14 @@
     background-color: #87b6b6 !important;
     color: #fff;
 }
+.theme-light [class*="textArea-"] {
+    color: #6f5573aa;
+}
+.theme-light [class*="textArea-"]::placeholder {
+    color: #ddbac5ee;
+}
+
+/* channel selector */
 .theme-light [class*="channels-"] [class*="scroller-"] [class*="icon-"] {
     color: #dd698c !important;
     opacity: .4;
