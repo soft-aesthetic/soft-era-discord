@@ -125,10 +125,6 @@
     background-color: #ddbac5;
 }
 
-
-.theme-light [class*="badge-"] {
-    background-color: #b4addf;
-}
 /* buttons and actions */
 .theme-light [class*="tabBar-"] [class*="primary-"], 
 .theme-light button[class*="lookFilled-"] {
@@ -166,6 +162,19 @@
 .theme-light [class*="channels-"] [class*="scroller-"] [class*="Hovered"] [class*="icon-"] {
     opacity: .8;
 }
-.theme-light [class*="unreadBottom-"] [class*="unread-"][class*="bar-"] {
-    background-color: #b4addf !important;
+
+
+/** 
+ * alert/notificaiton/badge colors
+*/
+
+/* unread mentions bar notifiying to scroll down to see more channels with mentions */
+.theme-light [class*="unreadBottom-"] [class*="unread-"][class*="bar-"],
+.theme-light [class*="unreadMentionsBar-"],
+.theme-light [class*="newMessagesBar-"],
+/* mention badge on channel names */
+.theme-light [class*="iconSpacing-"] [class*="wrapper-"],
+/* mention badge on build/team icons and maybe other stuff? */
+.theme-light [class*="badge-"] {
+    background-color: #979fd4 !important;
 }
